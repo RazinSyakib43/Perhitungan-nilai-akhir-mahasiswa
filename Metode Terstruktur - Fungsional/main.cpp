@@ -36,7 +36,7 @@ void hitung_nilai(Mahasiswa& mhs) {
 }
 
 void tampilkan_data(Mahasiswa mhs) {
-    cout << "\n\nData mahasiswa:\n";
+    cout << "\n\n[DATA MAHASISWA DAN NILAI]\n";
     cout << "Nama: " << mhs.nama << endl;
     cout << "Kode mata kuliah: " << mhs.kdmatkul << endl;
     cout << "Nama mata kuliah: " << mhs.nama_matkul << endl;

@@ -61,6 +61,7 @@ class Mahasiswa {
         }
 
         void tampilkanData() {
+            cout << "\n\n[DATA MAHASISWA DAN NILAI]\n";
             cout << "Nama Mahasiswa: " << nama << endl;
             cout << "Kode Mata Kuliah: " << kdmatkul << endl;
             cout << "Nama Mata Kuliah: " << nama_matkul << endl;

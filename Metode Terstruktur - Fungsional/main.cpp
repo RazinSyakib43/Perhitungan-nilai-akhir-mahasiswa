@@ -4,8 +4,7 @@ using namespace std;
 
 struct Mahasiswa {
     string nama, kdmatkul, nama_matkul;
-    float quiz, kehadiran, tugas, keaktifan, UTS, UAS;
-    float tugas_akhir;
+    float quiz, kehadiran, tugas, keaktifan, UTS, UAS, tugas_akhir;
     char nilai_akhir;
 };
 

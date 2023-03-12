@@ -11,35 +11,35 @@ class Mahasiswa {
     public:
         void input_data_mahasiswa() {
             cout << "DATA MAHASISWA\n";
-            cout << "Masukkan nama mahasiswa: ";
+            cout << "Nama: ";
             getline(cin, nama);
         }
         void input_data_mata_kuliah() {
             cout << "DATA MATA KULIAH\n";
-            cout << "Masukkan kode mata kuliah: ";
+            cout << "Kode mata kuliah: ";
             getline(cin, kdmatkul);
 
-            cout << "Masukkan nama mata kuliah: ";
+            cout << "Nama mata kuliah: ";
             getline(cin, nama_matkul);
         }
         void input_nilai() {
             cout << "DATA NILAI\n";
-            cout << "Masukkan nilai quiz: ";
+            cout << "Quiz: ";
             cin >> quiz;
 
-            cout << "Masukkan nilai kehadiran: ";
+            cout << "Kehadiran: ";
             cin >> kehadiran;
 
-            cout << "Masukkan nilai tugas: ";
+            cout << "Tugas: ";
             cin >> tugas;
 
-            cout << "Masukkan nilai keaktifan: ";
+            cout << "Keaktifan: ";
             cin >> keaktifan;
 
-            cout << "Masukkan nilai UTS: ";
+            cout << "UTS: ";
             cin >> UTS;
 
-            cout << "Masukkan nilai UAS: ";
+            cout << "UAS: ";
             cin >> UAS;
 
             cin.ignore();
